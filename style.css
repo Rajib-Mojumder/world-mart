@@ -15,4 +15,22 @@
     cursor: pointer;
     border-radius: 10px;
 }
-
+.pbg-1{
+    background-color: orange;
+    border-radius: 10px;
+}
+.pbg-2{
+    background-color: peru;
+    border-radius: 10px;
+}
+.pbg-3{
+    background-color: blue;
+    border-radius: 10px;
+}
+.pbg-1, .pbg-2, .pbg-3{
+    padding: 10px 30px;
+    color:white;
+}
+.container-categories{
+    margin: 106px;
+}
