@@ -34,3 +34,21 @@
 .container-categories{
     margin: 106px;
 }
+.categories img{
+    width: 100px;
+}
+.shoes img{
+    width: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 15px lightgray;
+    border-radius: 10px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.container{
+    
+}
