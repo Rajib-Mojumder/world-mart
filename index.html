@@ -1,190 +1,230 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Mart</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"></a>
-              <img src="images/Logos/Untitled-1.png" alt="world-mart">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#shoes">Shoes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#backpack">Backpack</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#subscribe">Subscribe</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </div>
-
-   <div class="container">
-    <div id="carouselExampleInterval" class="carousel slide slide-background-color" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="2000">
-          <div class="row d-flex align-items-center">
-            <div class="col-md-7">
-              <h1>Best TVs For Watching Sport</h1>
-              <p>Most modern TVs will have a Sports Mode preset that you can switch over to from Settings. However, you may not always want to choose Sports Mode. On some TVs, the setting will usually mean very high contrast levels and oversaturated colours, which may lead to your image looking very artificial and inconsistent</p>
-              <h1 class="price">Price $1119</h1>
-              <button class="buy-now-btn">Buy Now</button>
-            </div>
-            <div class="col-md-5"><img src="images/display/tv-trnsprnt.png" class="d-block w-100" alt="..."></div>
-          </div>
-       </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <div class="row d-flex align-items-center">
-            <div class="col-md-7">
-              <h1>Boom & Cool Headphone for Music Lovers</h1>
-              <p>Audio industry slang for headphones. Circumaural - Headphones that surround the pinna (external ear flap.) Shure SRH1440 and SRH1840 are circumaural headphones. Earphones - Also called earbuds, these listening devices fit into the ear canal</p>
-              <h1 class="price">Price $679</h1>
-              <button class="buy-now-btn">Buy Now</button>
-            </div>
-            <div class="col-md-5"> <img src="images/display/headphone-trns.png" class="d-block w-100" alt="..."></div>
-          </div>
-         </div>
-        <div class="carousel-item">
-          <div class="row d-flex align-items-center">
-            <div class="col-md-7">
-              <h1>The Limited Edition Gucci Xbox Series X</h1>
-              <p>Which console is more powerful?
-                The most powerful games console ever. The PS5 Digital Edition dispenses with the disc drive, so is slightly thinner, but is still as tall.</p>
-              <h1 class="price">Price $499</h1>
-              <button class="buy-now-btn">Buy Now</button>
-            </div>
-            <div class="col-md-5"> <img src="images/display/xbox-trnsprt.png" class="d-block w-100" alt="..."></div>
+</head>
+<body>
+  <div class="container">
+    <div class="d-flex"></div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <img src="images/Logos/Untitled-1.png" ID="W-M-Logos" alt="world-mart">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#backpack">Backpack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#subscribe">Subscribe</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-   </div>
+      </nav>
+</div>
 
-   <div class="container-categories">
+<div class="container" id="Slides">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+           <div class="row d-flex align-items-center">
+            <div class="col-md-7">
+            <h1 class="headline">Best TVs For Watching Sport</h1>
+            <p>Most modern TVs will have a Sports Mode preset that you can switch over to from Settings. However, you may not always want to choose Sports Mode. On some TVs, the setting will usually mean very high contrast levels and oversaturated colours, which may lead to your image looking very artificial and inconsistent</p>
+
+            <h1 class="price">Price $799</h1>
+            <button class="buy-now-btn">Buy Now >></button>
+            </div>
+                <div class="col-md-5">
+                <img src="images/display/tv-trnsprnt.png" class="d-block w-100" alt="...">
+            </div>
+           </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-7">
+                <h1 class="headline">Boom & Cool Headphone for Music Lovers</h1>
+                <p>Audio industry slang for headphones. Circumaural - Headphones that surround the pinna (external ear flap.) Shure SRH1440 and SRH1840 are circumaural headphones. Earphones - Also called earbuds, these listening devices fit into the ear canal.</p>
+
+                <h1 class="price">Price $649</h1>
+            <button class="buy-now-btn">Buy Now >></button>
+                </div>
+                <div class="col-md-5">
+                <img src="images/display/headphone-trns.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-7">
+                <h1 class="headline">The Limited Edition Gucci Xbox Series X</h1>
+                <p>Which console is more powerful? The most powerful games console ever. The PS5 Digital Edition dispenses with the disc drive, so is slightly thinner, but is still as tall.</p>
+
+                <h1 class="price">Price $369</h1>
+            <button class="buy-now-btn">Buy Now >></button>
+                </div>
+                <div class="col-md-5">
+                <img src="images/display/xbox-trnsprt.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+<div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <div class="pbg-1 d-flex justify-content-between align-items-center">
-          <h2>Smart Watch</h2>
-          <img src="images/Others/hand-watch-trns.png" alt="">
+        <div class="col-md-4">
+            <div class="img-1 d-flex justify-content-between align-items-center">
+                <h2>Smart Watch</h2>
+            <img src="images/Others/hand-watch-trns.png" alt="">
+            </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="pbg-2 d-flex justify-content-between align-items-center">
-          <h2>Travelling Bag</h2>
-          <img src="images/Others/travelling-bag-trns.png" alt="">
+        <div class="col-md-4">
+            <div class="img-2 d-flex justify-content-between align-items-center">
+                <h2>Travelling Bag</h2>
+                <img src="images/Others/travelling-bag-trns.png" alt="">
+            </div>
         </div>
-       </div>
-      <div class="col-md-4">
-        <div class="pbg-3 d-flex justify-content-between align-items-center">
-          <h2>Shoes</h2>
-          <img src="images/Others/shoes-trns.png" alt="">
+        <div class="col-md-4">
+            <div class="img-3 d-flex justify-content-between align-items-center">
+                <h2>Shoes</h2>
+                <img src="images/Others/shoes-trns.png" alt="">
+            </div>
         </div>
-       </div>
     </div>
-   </div>
-   
-   
-   <div class="container shoes" id="shoes">
-    <h3>Shoes</h3>
+</div>
+
+<div class="container" id="Shoes">
+    <h2>Shoes</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100 d-flex justify-content-between align-items-center">
-          <img src="images/Shoes/white-snakers.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nike Airmax 350</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <h4 class="price">Price: $449</h4>
-            <button class="buy-now-btn">Buy Now</button>
+        <div class="col">
+          <div class="card h-100 align-items-center">
+            <img src="images/Shoes/white-snakers.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Men's Snakers</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              
+            </div>
+            
+            <div class="card-footer text-center">
+              <h3 class="price">Price $230</h3>
+              <button class="buy-now-btn">Buy Now >></button>             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 align-items-center">
+            <img src="images/Shoes/ladies-hill.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ladies Choise</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              
+            </div>
+            <div class="card-footer text-center">
+              <h3 class="price">Price $333</h3>
+              <button class="buy-now-btn">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 align-items-center">
+            <img src="images/Shoes/black-shoes.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Formal Shoes</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              
+            </div>
+            <div class="card-footer text-center">
+              <h3 class="price">Price $549</h3>
+              <button class="buy-now-btn">Buy Now >></button>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100 d-flex justify-content-between align-items-center">
-          <img src="images/Shoes/ladies-hill.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Ladies Red Hill</h5>
-            <p class="card-text">This is a short card.</p>
-            <h4 class="price">Price: $449</h4>
-            <button class="buy-now-btn">Buy Now</button>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 d-flex justify-content-between align-items-center">
-          <img src="images/Shoes/black-shoes.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Menz Black Shoe</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            <h4 class="price">Price: $449</h4>
-            <button class="buy-now-btn">Buy Now</button>
-          </div>
-        </div>
-      </div>
+</div>
 
-     <div class="container" id="backpack">
-      <h3>Backpack</h3>
-      <div class="card-group">
-        <div class="card">
-          <img src="images/Backpack/Backpack-1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Blue Traveling Backpack</h5>
-            <h5 class="price">$149 </h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card-footer">
-            <button class="buy-now-btn">Buy Now</button>
-          </div>
+<div class="container" id="backpack">
+  <h2>Backpack</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100 d-flex justify-content-between align-items-center">
+        <img src="images/Backpack/Backpack-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Blue Traveling Backpack</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
-        <div class="card">
-          <img src="images/Backpack/backpack-2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">School Backpack</h5>
-            <h5 class="price">$99</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          </div>
-          <div class="card-footer">
-            <button class="buy-now-btn">Buy Now</button>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/Backpack/backpack-3.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Men's College Bag</h5>
-            <h5 class="price">$120</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          </div>
-          <div class="card-footer">
-            <button class="buy-now-btn">Buy Now</button>
-          </div>
+        <div class="card-footer text-center">
+          <h3 class="price">Price $549</h3>
+          <button class="buy-now-btn">Buy Now >></button>
         </div>
       </div>
-     </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 d-flex justify-content-between align-items-center">
+        <img src="images/Backpack/backpack-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">School Backpack</h5>
+          <p class="card-text">This is a short card.</p>
+        </div>
+        <div class="card-footer text-center">
+          <h3 class="price">Price $549</h3>
+          <button class="buy-now-btn">Buy Now >></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 d-flex justify-content-between align-items-center">
+        <img src="images/Backpack/backpack-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Men's College Bag</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer text-center">
+          <h3 class="price">Price $549</h3>
+          <button class="buy-now-btn">Buy Now >></button>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
+<div class="container d-flex justify-content-center align-items-center" id="subscribe">
+  <div>
+  <h5>LETS STAY IN TOUCH</h5>
+  <p>Get Update on Sales, Special & More </p>
+  <input class="form-control" type="text" placeholder="Enter Your Email">
+  <button class="buy-now-btn">SUBMIT</button>
+</div>
+</div>
+
+<footer>
+  <small>&copy all right reserved by World Mart @2023, Jyatirmay Jayanta</small>
+</footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
 </html>

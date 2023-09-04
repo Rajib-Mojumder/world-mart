@@ -1,54 +1,67 @@
-.slide-background-color{
-    background-color: #facae8;
-    border-radius: 20px;
+.container{
+    margin-bottom: 96px;
 }
-.carousel-item{
-    padding: 20px 40px;
+.carousel-inner{
+    background-color: #facae8;
+    border-radius: 15px;
+    padding: 10px 25px;
+}
+.headline{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .price{
-    color:purple
+    color: #800080
 }
 .buy-now-btn{
-    background-image: linear-gradient(180deg,#ff589B,#ff136f);
-    color:white;
-    padding: 5px;
+    color: white;
+    background-image: linear-gradient(180deg, #ff589B,#ff136f);
+    border-radius: 15px;
+    padding: 5px 8px;
     cursor: pointer;
-    border-radius: 10px;
 }
-.pbg-1{
-    background-color: orange;
-    border-radius: 10px;
-}
-.pbg-2{
-    background-color: peru;
-    border-radius: 10px;
-}
-.pbg-3{
-    background-color: blue;
-    border-radius: 10px;
-}
-.pbg-1, .pbg-2, .pbg-3{
-    padding: 10px 30px;
+.img-1, .img-2, .img-3{
     color:white;
+    padding: 10px 30px;
 }
-.container-categories{
-    margin: 106px;
+.img-1{
+    background-image: linear-gradient(90deg, rgb(182, 120, 5), lightgreen);
+    border-radius: 15px;
 }
-.categories img{
-    width: 100px;
+.img-2{
+    background-image: linear-gradient(90deg, rgb(128, 68, 9), rgb(179, 111, 43));
+    border-radius: 15px;
 }
-.shoes img{
-    width: 100px;
+.img-3{
+    background-image: linear-gradient(90deg, blue, rgb(34, 34, 175));
+    border-radius: 15px;
+}
+.card img{
+    width: 96px;
+}
+.card-title{
+    font-weight: bold;
 }
 .card{
-    border: none;
-    box-shadow: 5px 5px 15px lightgray;
-    border-radius: 10px;
+    border-style: none;
+    box-shadow: 5px 5px 15px lightgreen;
 }
 .card-footer{
-    background-color: white;
-    border-top: none;
+border: none;
+justify-content: left;
 }
-.container{
-    
+.form-control{
+    width: 200px;
+}
+#subscribe{
+    background-color: #facae8;
+    height: 300px;
+    border-radius: 15px;
+}
+footer{
+    text-align: center;
+}
+.container slides{
+    margin-top: 20px;
+    padding-top: none;
 }
